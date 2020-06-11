@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebAppTemplate.Application\WebAppTemplate.Application.csproj" />
+    <ProjectReference Include="..\WebAppTemplate.CrossCutting\WebAppTemplate.CrossCutting.csproj" />
+    <ProjectReference Include="..\WebAppTemplate.Infra\WebAppTemplate.Infra.csproj" />
+    <ProjectReference Include="..\WebAppTemplate.Model\WebAppTemplate.Model.csproj" />
+  </ItemGroup>
+
+
+</Project>
